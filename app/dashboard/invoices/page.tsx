@@ -1,3 +1,3 @@
-export default function Page() {
-    return <div>Invoices Page</div>
-    }
+export default async function Page() {
+  return <div>Invoices Page</div>;
+}
