@@ -9,6 +9,13 @@ interface PageProps {
   };
 }
 
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Edit Invoice",
+};
+
 export default async function Page({ params }: PageProps) {
   const id = params.id;
   // fetching invoice & customers in parallel
